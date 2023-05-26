@@ -1,0 +1,406 @@
+
+.navbar-global{
+    background-color: #D8E7F1;
+    width : 100%;
+    height : 96px;
+}
+
+.app-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-container{
+    width : 100%;
+    height : 100vh;
+}
+
+.consensus-title{
+    font-family: kanit;
+    font-style:normal;
+    color:black;
+    width:fit-content;
+    padding:0.5em;
+    margin-left:1em;
+    font-family: 'Palanquin Dark', sans-serif;
+
+}
+
+.navbar-subtitle{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:1em;
+}
+
+.home-link-nav,.about-link-nav,.help-link-nav,.login-link-nav{
+    text-align: center;
+    background-color:#2144BF;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    color:white;
+    margin-right:1.5em;
+    border-radius:20px;
+    width: 125px;
+    box-shadow: black 2px 2px 4px;
+    transition: 0.4s;
+}
+
+.home-link-nav:hover,.about-link-nav:hover,.help-link-nav:hover,.login-link-nav:hover{
+    color:rgb(0, 255, 0);
+    transition:0.4s;
+    text-decoration:none;
+}
+
+.slogan{
+    font-weight: 100;
+    font-style:normal;
+    color:black;
+    width:fit-content;
+    padding:0.5em;
+    margin-left:1em;
+    @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap');
+    font-family: 'Palanquin Dark', sans-serif;
+    color:black;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 50%;
+    background-color: #EBE9E9;
+    margin-left: 25%;
+    border-radius: 6px;
+}
+
+.newsession{
+    margin-left:25%;
+    @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap');
+    font-family: 'Palanquin Dark', sans-serif;
+    color:black;
+}
+
+.new-session-content{
+    display: flex;
+    flex-direction: column;
+    margin-top:4em;
+    margin-bottom:4em;
+}
+
+.session-code-span{
+    margin-top: 2em;
+    margin-left: 2em;
+    @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap');
+    font-family: 'Palanquin Dark', sans-serif;
+    color:black;
+}
+
+.session-code-input{
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 70%;
+    height:4em;
+    border-radius:6px;
+    border:none;
+    box-shadow: black 1px 1px 3px;
+    transition: 0.2s;
+}
+
+.session-code-input:focus{
+    outline: none;
+    box-shadow: rgb(255, 0, 0) 1px 1px 8px;
+    transition: 0.2s;
+}
+
+.session-code-button{
+    margin-top: 3em;
+    width: 150px;
+    background-color: #2144BF;
+    color: white;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    box-shadow: black 0px 2px 4px;
+    border: none;
+    transition:0.4s;
+}
+
+.session-code-button:hover{
+    color:rgb(0, 255, 0);
+    transition:0.4s;
+    text-decoration:none;
+}
+
+.validate-form{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right:4em;
+}
+
+.create-or-my-session-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom:2em;
+}
+
+.create-session-button,.my-session-button{
+    width: 225px;
+    background-color: #74A0BE;
+    color: white;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    box-shadow: black 0px 2px 4px;
+    border: none;
+    transition: 0.4s;
+}
+
+.create-session-button:hover,.my-session-button:hover{
+    color:rgb(0, 255, 0);
+    transition:0.4s;
+    text-decoration:none;
+}
+
+.what-make-consensus{
+    background-color: #EBE9E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom:2em;
+}
+
+
+.consensus-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom:1em;
+    @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap');
+    font-family: 'Palanquin Dark', sans-serif;
+    color:black;
+    font-style: normal;
+    text-align: justify;
+    text-indent:2em;
+}
+
+.subtitle-and-choose-lang {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-start;
+}
+
+.summary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-bottom:2em;
+}
+
+.create-summary,.participate-summary,.consult-summary{
+    background-color: #EBE9E9;
+    border-radius: 6px;
+    font-size: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: fit-content;
+    margin:2em;
+    padding:2em;
+    text-align: center;
+}
+
+.summary-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.summary-span{
+    margin-top:0.2em;
+}
+
+.logo-footer-erpi{
+    width: 200px;
+    margin-left: 1em;
+}
+
+.logo-footer-ensgsi{
+    width: 150px;
+    margin-left: 1em;
+}
+
+.logo-footer-univlorraine{
+    width: 200px;
+    margin-left: 1em;
+}
+
+.logo-footer {
+    margin-top:4em;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left : 2rem;
+    padding-bottom: 2em;
+}
+
+/*================================================================*/
+/*================================================================*/
+/*===========================RESPONSIVE===========================*/
+/*================================================================*/
+/*================================================================*/
+
+
+/*============================1200px==============================*/
+
+@media screen and (max-width:1200px) {
+    .create-session-button,.my-session-button{
+        width:150px;
+    }
+}
+
+/*============================1000px==============================*/
+
+@media screen and (max-width:1000px) {
+    .summary {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 600px;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin:auto;
+    }
+    .create-summary,.participate-summary,.consult-summary{
+        width:600px;
+        margin:2em;
+    }
+    .logo-footer-erpi{
+        width: 150px;
+        margin:0;
+    }
+    
+    .logo-footer-ensgsi{
+        width: 100px;
+        margin:0;
+    }
+    
+    .logo-footer-univlorraine{
+        width: 150px;
+        margin:0;
+    }
+
+    .logo-footer{
+        margin:0;
+    }
+
+    .home-link-nav,.about-link-nav,.help-link-nav,.login-link-nav{
+        font-size: 12px;
+        width:100px;
+    }
+    .slogan{
+        font-size:28px;
+    }
+    .create-or-my-session-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-session-button{
+        margin-top: 2em;
+    }
+    .validate-form{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin:0
+    }
+}
+
+/*============================800px==============================*/
+
+@media screen and (max-width:800px) {
+    .navbar-subtitle{
+        display:none;
+    }
+}
+
+/*============================700px==============================*/
+
+
+@media screen and (max-width: 700px){
+    .summary{
+        width: 400px;
+    }
+    .create-summary, .participate-summary, .consult-summary {
+        width: 400px;
+    }
+    .consensus-details{
+        font-size: 14px;
+    }
+    .slogan{
+        font-size: 24px;
+    }
+    .consensus-details{
+        font-size: 13px;
+    }
+}
+
+/*============================500px==============================*/
+
+@media screen and (max-width: 500px){
+    .summary{
+        width: 250px;
+    }
+    .create-summary, .participate-summary, .consult-summary {
+        width: 250px;
+    }
+    .logo-footer-erpi{
+        width: 85px;
+    }
+    
+    .logo-footer-ensgsi{
+        width: 75px;
+    }
+    
+    .logo-footer-univlorraine{
+        width: 85px;
+    }
+    .newsession{
+        font-size: 12px;
+    }
+    .consensus-details{
+        font-size: 12px;
+    }
+}
+
+

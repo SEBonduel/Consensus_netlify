@@ -1,0 +1,14 @@
+.past-session {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.past-session-list {
+    margin-top: 2em;
+}

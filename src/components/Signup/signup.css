@@ -1,0 +1,205 @@
+.MuiButton-contained.Mui-disabled {
+    opacity:0.5;
+}
+
+.signup-input-form {
+    display: flex;
+    height: 60%;
+    top: 0;
+    width: 60%;
+    background: rgb(170,188,198);
+    background: linear-gradient(216deg, rgba(170,188,198,1) 9%, rgba(174,200,214,1) 28%, rgba(179,215,235,1) 52%, rgba(166,192,208,1) 77%, rgba(157,177,189,1) 94%);
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    border-radius: 16px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 8px;
+    margin-left: 20%;
+    padding-bottom: 4em;
+}
+
+.navbar-signup{
+    background-color: #D8E7F1;
+    width : 100%;
+    height : 96px;
+}
+
+.app-title-signup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 0;
+}
+
+.consensus-title-signup{
+    font-family: kanit;
+    font-style:normal;
+    color:black;
+    width:fit-content;
+    padding:0.5em;
+    margin-left:1em;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-shadow: rgb(255, 0, 0) 4px 0 18px;
+}
+
+.navbar-subtitle-signup{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:1em;
+}
+
+.home-link-nav-signup,.about-link-nav-signup,.help-link-nav-signup,.login-link-nav-signup{
+    text-align: center;
+    background-color:#2144BF;
+    padding-left:1em;
+    padding-right:1em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    color:white;
+    margin-right:1.5em;
+    border-radius:20px;
+    width: 125px;
+    box-shadow: rgb(215, 5, 243) 2px 2px 50px;
+}
+
+.navbar-signup,.app-title-signup,.consensus-title-signup,
+.navbar-subtitle-signup,.home-link-nav-signup,.about-link-nav-signup,
+.help-link-nav-signup,.login-link-nav-signup{
+filter: blur(3px);
+}
+
+.signup-form-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4em;
+}
+
+.sign-title{
+    @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap');
+    font-family: 'Palanquin Dark', sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    font-size:60px;
+    z-index:50;
+}
+
+.already-on-platform{
+    @import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@400;500;700&display=swap');
+    font-family: 'Palanquin Dark', sans-serif;
+    color:black;
+}
+
+#pseudo{
+    margin-top:5em;
+    margin-bottom:4em;
+}
+
+#password,#confirmPassword,#email{
+    margin-bottom:4em;
+}
+
+#pseudo,#password,#confirmPassword,#email{
+    width: 400px;
+    border-style:none;
+    border-bottom: 2px solid #2144BF;
+    background: none;
+}
+
+#pseudo:focus,#password:focus,#confirmPassword:focus,#email:focus{
+    outline: none;
+}
+
+span.mail-format-bad {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    animation: animate 1.5s linear infinite;
+}
+
+.sign-help-link{
+    color: #000000;
+    text-decoration: none;
+    margin-top: 1.5em;
+    transition: 0.5s;
+    margin-top:2em;
+}
+
+.sign-help-link:hover{
+    color: #2144BF;
+    text-decoration: none;
+    transition:0.5s;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+/*================================================================*/
+/*================================================================*/
+/*===========================RESPONSIVE===========================*/
+/*================================================================*/
+/*================================================================*/
+
+@media only screen and (max-width: 950px) {
+    .navbar-subtitle-signup{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #pseudo,#password,#confirmPassword,#email{
+        width: 100%;
+    }
+    .sign-title {
+        font-size: 40px;
+    }
+
+    .already-on-platform{
+        font-size: 16px;
+    }
+    #pseudo{
+        margin-top:6em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #pseudo,#password,#confirmPassword,#email{
+        width: 90%;
+    }
+    .sign-title {
+        font-size: 26px;
+    }
+
+    .already-on-platform{
+        font-size: 12px;
+        z-index:50;
+    }
+    .signup-form-title {
+        margin-top: 1em;
+    }
+    span.mail-format-bad {
+        font-size: 12px;
+    }
+    .sign-help-link{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sign-help-link{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,669 @@
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@media all and (max-width:900px)
+{
+  #global {
+    display: flex;
+    height: 100%;
+  }
+}
+
+.global {
+  display: flex;
+  height: 100%;
+}
+
+.global2 {
+  background-color: #ffffff;
+  background-size: 100%;
+  display: flex;
+  height: 100%;
+}
+
+
+.creationDesign {
+  margin: auto;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+}
+
+.session {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  background-color: #2271b3ee;
+  box-shadow: 5px 5px 5px #ADAC9F;
+  border-radius: 5px;
+}
+
+
+.loading {
+  display: flex;
+  margin:auto;
+  margin-left: 45vw;
+}
+
+.loadingRecap {
+  display: flex;
+  margin:auto;
+}
+
+.footer {
+  font-size: 75%;
+  color:#ffffff;
+  position: relative;
+}
+
+.content-landing {
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.univLogo {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 40px;
+  
+}
+
+.avatar {
+  margin:auto;
+}
+
+.content-landing input{
+
+  width: 100%;
+  font-size: 125%;
+  border: none;
+  background: transparent;
+  border-bottom: 1.5px solid rgb(233, 243, 245);
+  outline: none;
+}
+
+.content-landing h2 {
+  display: flex;
+  margin: auto;
+}
+
+.content-landing button{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 20px;
+  background-color: #fdf4e3;
+  border-radius: 15px;
+  border:none;
+}
+
+
+
+.content-landing button:hover {
+  background-color: #2271b3;
+}
+
+
+
+
+
+.content-signup {
+  width:30%;
+  height:60%;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-signup input{
+  
+  display: flex;
+  margin:auto;
+  
+  width: 60%;
+  font-size: 125%;
+  border: none;
+  background: transparent;
+  border-bottom: 1.5px solid rgb(233, 243, 245);
+  outline: none;
+}
+
+.content-signup input::placeholder {
+  color:rgb(12, 69, 92);
+}
+
+.content-signup h2 {
+  display: flex;
+  margin: auto;
+}
+
+.content-signup button{
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+  background-color: #F9E4AA;
+  border-radius: 15px;
+  border:none;
+}
+
+.content-signup button:hover {
+  background-color:rgb(241, 207, 12);
+}
+
+.content-signup span {
+  margin:auto;
+}
+
+.content input{
+
+  display: flex;
+  margin:auto;
+
+  width: 55%;
+  font-size: 125%;
+  border: none;
+  background: transparent;
+  border-bottom: 1.5px solid rgb(233, 243, 245);
+  outline: none;
+}
+.content input::placeholder {
+  color:rgb(12, 69, 92);
+}
+
+
+.content h2 {
+  display: flex;
+  margin: auto;
+}
+
+
+
+.content button{
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  font-size: 20px;
+  background-color: #F9E4AA;
+  border-radius: 15px;
+  border:none;
+}
+
+.content button:hover {
+  background-color:rgb(241, 207, 12);
+}
+
+
+
+.link {
+  font-size: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(233, 243, 245);
+}
+
+.linkNewAccount {
+  font-size: 2vh;
+  color:rgb(233, 243, 245);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  border-width: 100px;
+  border-top: 2.5px solid #9CA7CB;
+}
+
+.linkNewAccount:hover {
+  color:rgb(233, 243, 245);
+}
+
+
+/* Partie chat :
+*/
+
+.participantArea {
+  display: flex;
+  flex-direction: column;
+}
+
+.participant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12vw;
+  background-color: #2271b3;
+}
+
+.stepInfs {
+  background-color: #2271b3;
+}
+
+.chat {
+  display: flex;
+  width: 20vw;
+  height: 92.5vh;
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+
+.messagesArea {
+  height: 77vh;
+  overflow-y: scroll;
+}
+
+.singleMessage {
+  background-color: #2271b3;
+  width: 12vw;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  resize: none;
+  font-size: 1.5vh;
+  color: #ffffff
+}
+
+.messagePosition1 {
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+  margin-right: 7vw;
+}
+
+.messagePseudo1 {
+  margin:auto;
+  font-size: 90%;
+}
+
+.messagePseudo2 {
+  font-size: 90%;
+  margin:auto;
+}
+
+.messagePosition2 {
+  display: flex;
+  flex-direction: column;
+  width: 12vw;
+  margin-left: 7vw;
+}
+
+.currentUserSingleMessage {
+  background-color: rgb(241, 207, 12);
+  width: 12vw;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  resize: none;
+  font-size: 1.5vh;
+  color: #1d334a
+}
+
+.chatTextArea {
+  margin-top: 5px;
+  display: flex;
+  background-color: white;
+  border: 2px solid #2271b3;
+}
+
+.textArea {
+  height: 8vh;
+  width: 18.5vw;
+  border: none;
+  resize: none;
+}
+
+
+.textArea::placeholder {
+  text-align: center;
+  color: #1d334a;
+}
+
+.planeImgContainer {
+  margin: auto;
+  height: 3vh;
+  width: 1.5vw;
+}
+
+.planeImg {
+  height: 2.5vh;
+  width: 1.25vw;
+}
+
+.planeImg:hover {
+  height: 3vh;
+  width: 1.5vw;
+  cursor: pointer;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.milieu {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  height: 100%;
+}
+
+.contentMilieu {
+  height: 92.5vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.contentMilieu2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.content {
+  width:35vw;
+  height:60vh;
+  margin:auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.zoneDuChat {
+  flex: 0.2
+}
+
+
+.creationDesign hr {
+  width: 62.5vw;
+}
+
+
+.inputForm {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+
+
+/* Recap : */
+
+.recapDesign {
+  margin: auto;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recapDesign hr{
+  width: 50vw;
+}
+
+.recapDesign h3 {
+  color: #052757;
+  font-size: 125%;
+}
+
+.recapDesign h1{
+  color: #052757;
+  margin: auto;
+}
+
+.recapDescription {
+  height: 5vh;
+  width: 40vw;
+  overflow-y: scroll;
+  overflow: hidden;
+  resize: none;
+  margin: auto;
+}
+
+.recapDescription h2 {
+  text-align: center;
+  font-size: 125%;
+}
+
+
+.recapCriteriaDescription {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.recapCriteriaDescription h4 {
+  text-align: center;
+  font-size: 100%;
+}
+
+
+
+.recapDesign h2 {
+  text-align: center;
+  font-size: 125%;
+}
+
+
+/* IndividualDecision */
+
+.individualContent {
+  height:99vh;
+}
+
+.individualContent h1 {
+  margin-top:0%;
+  margin-left: 25vw;
+  color:#052757;
+}
+
+.individualContent p {
+  margin: auto;
+  color: #000000;
+}
+
+
+.cursor {
+  width: 24vw;
+  cursor: pointer;
+}
+
+.individualContent h2 {
+  margin-left: 18vw;
+  font-size: 120%;
+}
+
+
+.buble {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+/*----------------------- Partie Négociation ------------------------------------ */
+
+
+.radarContainer {
+  width: 30vw;
+  height: 45vh;
+  background-color: #ffffffb9;
+  border-radius: 20px;
+}
+
+
+.negoRadar {
+  margin: auto;
+}
+
+
+.negoBottom {
+  display: flex;
+}
+
+
+/************************************/
+
+
+/************************* Consensus **************************/
+
+
+.leftContainerImg {
+  height: 6vh;
+  width: 3vw;
+}
+
+.leftImg {
+  height: 5vh;
+  width: 2.5vw;
+  margin-top: 20vh;
+}
+
+.leftImg:hover {
+  height: 6vh;
+  width: 3vw;
+  cursor: pointer;
+}
+
+.rightContainerImg {
+  height: 6vh;
+  width: 3vw;
+}
+
+.rightImg {
+  height: 5vh;
+  width: 2.5vw;
+  margin-top: 20vh;
+}
+
+.rightImg:hover {
+  height: 6vh;
+  width: 3vw;
+  cursor: pointer;
+}
+
+.radarGroup {
+  display: flex;
+}
+
+.radarGroupContainer {
+ display: flex;
+ flex-direction: column;
+
+}
+
+
+
+
+.nvlogo {
+  color: #fdf4e3;
+  font-size: 3vh;
+  background-color: inherit;
+}
+
+.nvlogo:hover {
+  text-decoration: none;
+  color: #fdf4e3;
+}
+
+.nvLinkProfile {
+  display: flex;
+  color: #fdf4e3;
+  font-size: 3vh;
+  background-color: inherit;
+}
+
+.nvLinkProfileMobile {
+  display: flex;
+  color: #000000;
+  font-size: 3vh;
+}
+
+.nvLinkProfile:hover {
+  text-decoration: none;
+  color: #fdf4e3;
+}
+
+.nvLinkProfileMobile:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.nvLinkLanding {
+  display: flex;
+  color: #fdf4e3;
+  font-size: 3vh;
+  background-color: inherit;
+}
+
+.nvLinkLanding:hover {
+  text-decoration: none;
+  color: #fdf4e3;
+}
+
+
+.btn-close-help {
+  color:#fdf4e3;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 2vh;
+  background-color: #f39f18;
+  border-radius: 15px;
+  border:none;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.btn-close-help:hover {
+  color: black;
+  text-decoration: none;
+  background-color:#2271b3;
+}
+
+
+/**************************************************************/
+
+
+
+/*----------------------------------------------------------------------------*/
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,154 @@
+.flag{
+  width: 100px;
+  height: 65px;
+  margin-right: 10px;
+}
+
+.frflag{
+  width: 36px;
+  height: 33px;
+  margin-right: 10px;
+}
+
+.enflag{
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.espflag{
+  width: 36px;
+  height: 33px;
+  margin-right: 10px;
+}
+
+.flags{
+  width:40px;
+  margin-right:1em;;
+  margin-left:1em;
+}
+
+.dropdown{
+  padding:1em;
+}
+
+.downarrow2 {
+  transform: rotate(270deg);
+  transition: transform 0.6s;
+  margin-left:2em;
+  height: 18px;
+  width: 18px;
+}
+
+.dropdown-header2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding:1em;
+  border-bottom:solid 2px black;
+}
+
+.dropdown-list2 {
+  animation: fadein2 1s;
+  -moz-animation: fadein2 1s;
+  -webkit-animation: fadein2 1s;
+  -o-animation: fadein2 1s;
+  margin-left: 7em;
+  margin-right: 7em;
+  padding:1em;
+  border-bottom:solid 2px black;
+  
+
+
+}
+
+.dropdown-list-item2{
+  padding:0.2em;
+  margin-left:-1em;
+  margin-right:-1.5em;
+  border-radius:10px;
+  transition:0.6s;
+  padding: 0.5em;
+  padding-left: 1em;
+  padding-right: 1.5em;
+
+
+}
+
+.dropdown-list-item2:hover{
+  transition:0.6s;
+  background-color: #d7a7a7;
+}
+
+.to-en,.to-fr,.to-esp{
+  text-decoration: none;
+  color:black;
+  transition:0.3s;
+}
+.to-en:hover,.to-esp:hover,.to-fr:hover{
+  text-decoration: none;
+  transition:0.3s;
+  color: #2144BF;
+}
+
+.response {
+  font-family: math;
+  text-align: justify;
+}
+
+.Question {
+  font-size: larger;
+  font-weight: 500;
+}
+
+
+
+@keyframes fadein {
+  from {
+      opacity:0;
+      margin-top:4em;
+
+  }
+  to {
+      opacity:1;
+      margin-top:0em;
+  }
+}
+
+@keyframes fadein2 {
+  from {
+      opacity:0;
+      margin-top:-1em;
+  }
+  to {
+      opacity:1;
+      margin-top:0em;
+  }
+}
+@-moz-keyframes fadein { /* sur Firefox */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* sur Safari et Chrome */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-o-keyframes fadein { /* sur Opera */
+  from {
+      opacity:0;
+  }
+  to {
+      opacity: 1;
+  }
+}

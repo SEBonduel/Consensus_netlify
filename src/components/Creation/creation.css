@@ -1,0 +1,173 @@
+.create-session-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EBE9E9;
+    box-shadow: 2px 2px 4px #000000;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 3em;
+    padding-bottom:2em;
+}
+
+#name,#time,#round {
+    background-color: white;
+    border:none;
+    border-radius: 5px;
+}
+
+.session-name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 4em;
+    font-size: 16px;
+    margin-top: 2em;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.add-desc {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 4em;
+}
+
+.content-and-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top:2em;
+    margin-bottom:4em;
+}
+
+.MuiPaper-root.MuiStepper-root.MuiStepper-horizontal.MuiStepper-alternativeLabel.MuiPaper-elevation0 {
+    margin-top: 2em;
+}
+
+
+.prec-next-button {
+    margin-left: 3em;
+}
+
+.add-criteria-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-step2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3em;
+}
+
+.def-criteria {
+    height: 100%;
+    margin-bottom: 5em;
+}
+
+.criteriaDisposition {
+    box-shadow: 5px 5px 5px #ADAC9F;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE9E9;
+    border-radius: 5px;
+    justify-content: space-around;
+    width:70%;
+}
+
+.alternativeDisposition {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBE9E9;
+    border-radius: 5px;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px #ADAC9F;
+  }
+
+  .add-scenario-button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nvStakeholders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #EBE9E9;
+    border-radius: 8px;
+    width:90%;
+    margin-bottom:2em;
+    margin-top:2em;
+    padding-bottom:2em;
+    padding-top:2em;
+
+  }
+
+  .checkbox-session {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+
+/*================================================================*/
+/*================================================================*/
+/*===========================RESPONSIVE===========================*/
+/*================================================================*/
+/*================================================================*/
+
+@media screen and (max-width:550px) {
+    .prec-next-button-before {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .create-session-content {
+        display: flex;
+        margin:0;
+        width:95%;
+    }
+    .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+        font-size:12px;
+    }
+    .prec-next-button {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:350px) {
+    
+    .MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+        font-size:10px;
+    }
+}

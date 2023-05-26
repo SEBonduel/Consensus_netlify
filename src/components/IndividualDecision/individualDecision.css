@@ -1,0 +1,47 @@
+.ahp {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.visual-criteria-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin:2em;
+}
+
+.ratio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.visual-criteria{
+    background-color:#EFF9FFE3;
+    padding:2em;
+    margin-top:6em;
+}
+
+.critDisplay {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.right-criteria,.left-criteria {
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+canvas.chartjs-render-monitor {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 4em;
+}

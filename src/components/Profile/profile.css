@@ -1,0 +1,138 @@
+.confidential-content-and-avatar {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin:2em;
+}
+
+.confidential-content,.personnal-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+    width:60%;
+    background-color:#EBE9E9;
+    padding:2em;
+}
+
+.personnal-content{
+    margin-top:6em;
+    margin-left:0;
+}
+
+.confidential-content-title,.personnal-content-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -2em;
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-bottom: 2em;
+    background-color: white;
+}
+
+.confidential-content-list,.personnal-content-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    padding:2em;
+}
+
+#email2,#password2 {
+    background-color: white;
+}
+
+.avatar {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.confidential-content-pwd,.personnal-content-pwd {
+    margin-top: 2em;
+}
+
+.change-pwd,.change-pseudo {
+    margin: 1em;
+    margin-left:2em;
+    border-radius: 8px;
+    background-color: #2144BF;
+    color: white;
+    font-family:revert;
+    width:100px;
+    font-weight: bold;
+    box-shadow: black 1px 1px 6px;
+}
+
+.change-pwd{
+    width:300px;
+    margin:0;
+}
+
+.slogan-and-dropdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.new-username{
+    border:none;
+    padding:1em;
+    padding-right:5em;
+}
+
+
+/*================================================================*/
+/*================================================================*/
+/*===========================RESPONSIVE===========================*/
+/*================================================================*/
+/*================================================================*/
+
+/*==========================750px=================================*/
+
+@media screen and (max-width:750px) {
+    .confidential-content-and-avatar {
+        display: flex;
+        flex-direction:column;
+    }
+    .avatar{
+        margin:5em;
+    }
+    .personnal-content{
+        margin-top:0;
+    }
+    .confidential-content,.personnal-content {
+        width:100%;
+    }
+}
+
+/*==========================700px=================================*/
+
+@media screen and (max-width:700px) {
+    .change-pwd{
+        width:200px;
+    } 
+}
+
+/*==========================500px=================================*/
+
+@media screen and (max-width:700px) {
+    .change-pwd{
+        width:200px;
+    } 
+}

@@ -1,0 +1,47 @@
+.content-forget {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(216deg, rgba(170,188,198,1) 9%, rgba(174,200,214,1) 28%, rgba(179,215,235,1) 52%, rgba(166,192,208,1) 77%, rgba(157,177,189,1) 94%);
+    margin:auto;
+    border-radius: 10px;
+    padding-top:5em;
+}
+
+.account-to-recup {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.inputForm-recuperation {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.oui:disabled{
+    opacity: 0.5;
+    transition: 0.4s;
+
+}
+
+.oui{
+    opacity: 1;
+    background-color: #2144BF;
+    color:white;
+    border:none;
+    box-shadow: black 2px 2px 4px;
+    transition: 0.4s;
+    border-radius:10px
+}
